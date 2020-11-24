@@ -1,6 +1,6 @@
 # experimental
 Testing out all the technologies here.
-#technology
+# technology
 Ganache
 Truffle
 Solidity
