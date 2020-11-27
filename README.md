@@ -1,5 +1,5 @@
 # experimental
-Testing out all the technologies here.
+Testing out all blockchain related technologies here.
 # technology
 Ganache,
 Truffle,
