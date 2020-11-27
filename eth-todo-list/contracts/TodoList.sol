@@ -11,11 +11,11 @@ contract TodoList {
     }
 
     mapping(uint => Task) public tasks;
-
+    //Array or hash. Key value pair. set to a public reading function, access level(usually for free subscribers).
     constructor() public {//a startup function to create the first input.
         createTask("Add another task.");//default input
     }
-    //Array or hash. Key value pair. set to a public reading function, access level(usually for free subscribers).
+
     function createTask(string memory _content) public { //storing task into database using a function with argument.
         taskCount ++;//value increment, changing by one.
         tasks[taskCount] = Task(taskCount, _content, false);
