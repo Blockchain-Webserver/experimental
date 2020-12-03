@@ -7,3 +7,5 @@ solidity,
 lite-server,
 browsersync,
 bootstrap,
+# operations
+Basic apps can be run using "node app.js"
